@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing Table</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="pricing-grid" id="pricingGrid">
+    
+    <div class="card" data-plan="starter">
+      <div class="card-header">
+        <h3>Starter</h3>
+        <p>Perfect for individuals getting started.</p>
+      </div>
+      <div class="card-price"><span class="price"><sup>$</sup>19</span><span>/month</span></div>
+      <div class="card-features">
+        <ul><li>5 Projects</li><li>10GB Storage</li><li>Basic Support</li></ul>
+      </div>
+      <div class="card-action"><button>Select Starter</button></div>
+    </div>
+
+    <div class="card popular selected" data-plan="pro">
+      <div class="badge">Most Popular</div>
+      <div class="card-header">
+        <h3>Professional</h3>
+        <p>Best for growing teams that need more power and collaboration features.</p>
+      </div>
+      <div class="card-price"><span class="price"><sup>$</sup>49</span><span>/month</span></div>
+      <div class="card-features">
+        <ul><li>Unlimited Projects</li><li>100GB Storage</li><li>Priority Support</li><li>Advanced Analytics</li><li>Custom Integrations</li></ul>
+      </div>
+      <div class="card-action"><button>Select Professional</button></div>
+    </div>
+
+    <div class="card" data-plan="enterprise">
+      <div class="card-header">
+        <h3>Enterprise</h3>
+        <p>Advanced security and scale.</p>
+      </div>
+      <div class="card-price"><span class="price"><sup>$</sup>99</span><span>/month</span></div>
+      <div class="card-features">
+        <ul><li>Unlimited Everything</li><li>1TB Storage</li><li>24/7 Dedicated Support</li><li>SSO & Audit Logs</li></ul>
+      </div>
+      <div class="card-action"><button>Select Enterprise</button></div>
+    </div>
+
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
